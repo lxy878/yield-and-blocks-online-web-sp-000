@@ -4,8 +4,6 @@ def hello_t(names)
     yield name
     puts "m2"
   end
-
-  end
 end
 
 # call your method here!
