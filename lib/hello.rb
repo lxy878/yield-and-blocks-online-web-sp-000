@@ -10,6 +10,6 @@ end
 # call your method here!
 
 names = ["Tim", "Tom", "Jim"]
-hello_t(names) do |names|
+hello_t(names) do |name|
   puts "#{name}"
 end
