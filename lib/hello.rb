@@ -4,6 +4,7 @@ def hello_t(names)
     puts "m1"
     yield names[i]
     puts "m2"
+    i+=1
   end
 end
 
