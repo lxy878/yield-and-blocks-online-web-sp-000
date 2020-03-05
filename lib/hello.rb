@@ -1,7 +1,8 @@
 def hello_t(names)
-  names.each do |name|
+  i = 0
+  while i<names.length
     puts "m1"
-    yield {name}
+    yield names[i]
     puts "m2"
   end
 end
