@@ -1,9 +1,7 @@
 def hello_t(names)
   i = 0
   while i<names.length
-    puts "m1"
     yield names[i]
-    puts "m2"
     i+=1
   end
 end
