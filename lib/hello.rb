@@ -9,3 +9,5 @@ def hello_t(names)
 end
 
 # call your method here!
+
+names = ["Tim", "Tom", "Jim"]
