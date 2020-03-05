@@ -13,3 +13,4 @@ names = ["Tim", "Tom", "Jim"]
 hello_t(names) do |name|
   puts "#{name}"
 end
+hello_t(names)
